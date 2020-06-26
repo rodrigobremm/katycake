@@ -1,3 +1,75 @@
+@media only screen and (max-width: 700px)
+{
+
+#container{
+  display: none;
+}
+
+
+.mobile-container {
+  max-width: 480px;
+  margin: auto;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav #myLinks a {
+text-decoration: none;
+}
+
+  
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 700px)
+{
+
+
 p {
   font-size: 20px;
 }
@@ -15,6 +87,13 @@ p {
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+
+#navigation{
+  display: none;
+}
+
 
 body {
   background: #212121;
@@ -221,4 +300,6 @@ li > a:only-child:after { content: ''; }
   font-family: 'Rancho', cursive;
   width: 100%;
   font-size: 25px;
+}
+
 }
