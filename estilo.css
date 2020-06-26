@@ -1,0 +1,224 @@
+p {
+  font-size: 20px;
+}
+
+#titulo {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 100px;
+}
+
+* {
+  margin: 0px;
+}
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+
+body {
+  background: #212121;
+  font-size:22px;
+  line-height: 32px;
+  color: #ffffff;
+  word-wrap:break-word !important;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+
+
+a {
+  color: #FFF;
+}
+
+h1 {
+  margin-top: 100px;
+  text-align:center;
+  font-size:60px;
+  font-family: 'Bree Serif', 'serif';
+  }
+
+#titulo-recheios {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Paprika', cursive;
+  text-transform: uppercase;
+
+}
+
+#titulo-infantil {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Paprika', cursive;
+}
+
+#titulo-valores {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Paprika', cursive;
+  text-transform: uppercase;
+
+}
+
+#texto-valores{
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Paprika', cursive;
+}
+
+#titulo-contato {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Paprika', cursive;
+  text-transform: uppercase;
+}
+
+#texto-contato{
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: ;
+  font-family: 'Paprika', cursive;
+}
+
+#texto-contato img {
+  width: 75px;
+}
+
+#texto-contato p a {
+  text-decoration: none;
+  color: black;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0px 0;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  margin-left: 15%;
+  }
+  
+nav ul li {
+  display:inline-block;
+  background-color: black;
+  width: 15%;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+nav a {
+  display:block;
+  padding:0 10px; 
+  color:#FFF;
+  font-size:20px;
+  line-height: 60px;
+  text-decoration:none;
+}
+
+nav a:hover { 
+  background-color: #44878F;
+  color: white;
+  text-decoration: none; 
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px;/* the height of the main nav */
+  margin-left: -7.5%;
+}
+  
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+  display:inherit;
+  width:15%;
+}
+  
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+  width:100%;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+/* Second, Third and more Tiers */
+nav ul ul ul li {
+  position: relative;
+  top:-60px; 
+  left:170px;
+}
+
+  
+/* Change this in order to change the Dropdown symbol */
+li > a:after { content:  ' *'; }
+li > a:only-child:after { content: ''; }
+
+#infantil {
+  margin-left: 17%;
+  width: 80%;
+
+}
+
+#infantil-foto {
+  width: 20%;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: black 2px solid;
+}
+
+#bolos-recheios {
+  width: 95%;
+  padding: 1% 7%;
+  margin-left: 3%;
+}
+
+#recheios {
+  float: left;
+  padding: 0% 2%;
+  width: 50%;
+  height: 300px;
+}
+
+#recheios img {
+  float: left;
+  width: 48%;
+  height: 250px;
+  margin-right: 2%;
+  border-radius: 20px;
+}
+
+#recheios h3 {
+  float: left;
+  text-align: center;
+  width: 50%;
+  padding-top: 50px;
+  font-size: 35px;
+  font-family: 'Paprika', cursive;
+}
+
+#recheios p {
+  text-align: center;
+  font-family: 'Rancho', cursive;
+  width: 100%;
+  font-size: 25px;
+}
