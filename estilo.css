@@ -126,7 +126,7 @@ h1 {
 
 }
 
-#titulo-infantil {
+#titulo-adulto {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
@@ -259,6 +259,22 @@ li > a:only-child:after { content: ''; }
 
 #infantil-foto {
   width: 20%;
+  height: 450px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: black 2px solid;
+}
+
+#adulto {
+  margin-left: 17%;
+  width: 80%;
+
+}
+
+#adulto-foto {
+  width: 20%;
+  height: 450px;
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
