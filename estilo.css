@@ -126,6 +126,14 @@ h1 {
 
 }
 
+#titulo-infantil {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Paprika', cursive;
+}
+
 #titulo-adulto {
   text-align: center;
   font-size: 50px;
